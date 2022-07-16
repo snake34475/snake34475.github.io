@@ -6875,6 +6875,18 @@ pre {
     --text-p1: #fff;
     --text-p3: #777;
     --card: #fff;
+    --waline-white: #000 !important;
+    --waline-light-grey: #666 !important;
+    --waline-dark-grey: #999 !important;
+    --waline-text-color: #888 !important;
+    --waline-bgcolor: #1e1e1e !important;
+    --waline-bgcolor-light: #272727 !important;
+    --waline-border-color: #333 !important;
+    --waline-disable-bgcolor: #444 !important;
+    --waline-disable-color: #272727 !important;
+    --waline-bq-color: #272727 !important;
+    --waline-info-bgcolor: #272727 !important;
+    --waline-info-color: #666 !important;
   }
   :root:not([color-scheme]) fa-solid,
   :root:not([color-scheme]) fa-regular,
@@ -6957,15 +6969,24 @@ pre {
   :root:not([color-scheme]) .btn-copy:hover {
     background: var(--color-site-body);
   }
-  :root:not([color-scheme]) #Discuss .D-emot {
-    background: #333841;
-  }
 }
 [color-scheme='dark'] {
   --block-hover: #1c1c1c;
   --text-p1: #fff;
   --text-p3: #777;
   --card: #fff;
+  --waline-white: #000 !important;
+  --waline-light-grey: #666 !important;
+  --waline-dark-grey: #999 !important;
+  --waline-text-color: #888 !important;
+  --waline-bgcolor: #1e1e1e !important;
+  --waline-bgcolor-light: #272727 !important;
+  --waline-border-color: #333 !important;
+  --waline-disable-bgcolor: #444 !important;
+  --waline-disable-color: #272727 !important;
+  --waline-bq-color: #272727 !important;
+  --waline-info-bgcolor: #272727 !important;
+  --waline-info-color: #666 !important;
 }
 [color-scheme='dark'] fa-solid,
 [color-scheme='dark'] fa-regular,
@@ -7047,7 +7068,4 @@ pre {
 }
 [color-scheme='dark'] .btn-copy:hover {
   background: var(--color-site-body);
-}
-[color-scheme='dark'] #Discuss .D-emot {
-  background: #333841;
 }
